@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login-style.css">
+    <link rel="stylesheet" href="navbar-style.css">
+</head>
+<body>
+    <header>
+		<nav id="navbar">
+			<div class="head">
+				<h2>Attendance-Marking System</h2>
+			</div>
+			<ul>
+				<li id="item"><a href="index.html">Home</a></li>
+				<li id="item"><a href="#">About</a></li>
+				<li id="item"><a href="#">Contact</a></li>
+				<li id="item"><a href="#">Location</a></li>
+			</ul>
+		</nav>
+	</header>
+    <h1>Student Login</h1>
+    <div class="container">
+        <table>
+            <form action="student_login" method="post">
+        <tr>
+            <td>
+                <label for="roll_no">Roll No : </label>
+            </td>
+            <td>
+                <input type="text" id="roll_no" name="roll_no" size="30" style="margin-left: 5px;" required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password : </label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password" size="30" style="margin-left: 5px;" required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+        </form>
+    </table>
+    </div>
+</body>
+</html>

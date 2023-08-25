@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Attendance</title>
+    <link rel="stylesheet" href="login-style.css">
+    <link rel="stylesheet" href="navbar-style.css">
+</head>
+<body>
+    <header>
+		<nav id="navbar">
+			<div class="head">
+				<h2>Attendance-Marking System</h2>
+			</div>
+			<ul>
+				<li id="item"><a href="index.html">Home</a></li>
+				<li id="item"><a href="#">About</a></li>
+				<li id="item"><a href="#">Contact</a></li>
+				<li id="item"><a href="#">Location</a></li>
+			</ul>
+		</nav>
+	</header>
+    <h1>Mark Attendance</h1>
+	<div class="container">
+    <table class="mark">
+        <form action="admin_mark" method="post">
+        <tr>
+            <td>
+                <label for="roll_no">Roll No : </label>
+            </td>
+            <td></td>
+            <td>
+                <input type="number" id="roll_no" name="roll_no" size="40" required> <br>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Attendance : </label>
+            </td>
+            <td></td>
+            <td>
+            	<label for="present">Present</label>
+            	<input type="radio" id="present" name="mark_attend" value="Present" required> <br />
+            	<label for="absent">Absent</label>
+            	<input type="radio" id="absent" name="mark_attend" value="Absent" required> <br />
+            </td>
+        </tr>
+        <tr>
+        	<td>
+        		<label for="date">Date :</label>
+        	</td>
+            <td></td>
+        	<td>
+        		<input type="date" id="date" name="date" required> <br />
+        	</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="reset">Reset</button>
+                
+            </td>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+        </form>
+    </table>
+	</div>
+</body>
+</html>

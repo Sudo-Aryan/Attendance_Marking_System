@@ -1,0 +1,77 @@
+@charset "UTF-8";
+        body{
+            position: relative;
+            
+		    background: url('https://wallpapercave.com/wp/tF62tvD.jpg');
+	    }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        h1{
+            display: flex; 
+            justify-content: center;
+            word-spacing: 5px; 
+            letter-spacing: 1px; 
+            font-weight: 100;
+            margin-top: 10%;
+            color: #fff;
+        }
+
+        table{
+            background-color: #fff;
+            opacity: 0.9;
+            border: 1px solid rgb(194, 194, 194); 
+            border-radius: 4%; 
+            padding: 5%;
+            padding-bottom: 2%;
+            box-shadow: 10px rgba(0, 0, 0, 0.4);
+        }
+
+        button{
+            margin-left: 5%;
+            padding: .7rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(48, 223, 48);
+            transition: .5s;
+            font-size: medium;
+            color: #fff;
+            margin: 5%;
+        }
+        
+        button:hover{
+                background-color: rgb(36, 160, 36);
+            }
+            
+        input{
+            border: none;
+            border-bottom: 3px solid rgb(101, 255, 101);
+            margin-bottom: 5%;
+            transition: margin .27s ease-in-out; 
+        }
+        
+        input:focus{
+                outline: none;
+                margin-bottom: 10%;
+            }
+
+        .mark input{
+            border: none;
+            border-bottom: 3px solid rgb(101, 255, 101);
+            margin-bottom: 10%;
+            transition: margin .3s ease-in-out;
+        }
+        
+        .mark input:focus{
+                outline: none;
+                margin-bottom: 15%;
+            }
+
+        input[type='password']:focus{
+            margin-top: 5%;
+        }

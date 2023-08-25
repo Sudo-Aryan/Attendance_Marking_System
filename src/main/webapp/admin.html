@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" href="navbar-style.css">
+</head>
+<body>
+	<header>
+		<nav id="navbar">
+			<div class="head">
+				<h2>Attendance-Marking System</h2>
+			</div>
+			<ul>
+				<li id="item"><a href="#">Home</a></li>
+				<li id="item"><a href="#">About</a></li>
+				<li id="item"><a href="#">Contact</a></li>
+				<li id="item"><a href="#">Location</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="login-box" id="admin">
+			<svg width="30%" height="30%" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" >
+				<path d="M0 0h48v48H0z" fill="none"/>
+				<g id="Shopicon">
+					<circle cx="24" cy="24" r="4"/>
+					<path d="M24,38c12,0,20-14,20-14s-8-14-20-14S4,24,4,24S12,38,24,38z M24,16c4.418,0,8,3.582,8,8s-3.582,8-8,8s-8-3.582-8-8
+						S19.582,16,24,16z"/>
+				</g>
+			</svg>
+			<a class="login-button" href="show_attendance">Show Attendance</a> <br /> <br />
+			<hr />
+			<p>Shows attendance records</p>
+		</div>
+		<div class="login-box" id="student">
+			<svg width="30%" height="30%" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g>
+				<path d="M10.0002 4H7.2002C6.08009 4 5.51962 4 5.0918 4.21799C4.71547 4.40973 4.40973 4.71547 4.21799 5.0918C4 5.51962 4 6.08009 4 7.2002V16.8002C4 17.9203 4 18.4801 4.21799 18.9079C4.40973 19.2842 4.71547 19.5905 5.0918 19.7822C5.5192 20 6.07899 20 7.19691 20H16.8031C17.921 20 18.48 20 18.9074 19.7822C19.2837 19.5905 19.5905 19.2839 19.7822 18.9076C20 18.4802 20 17.921 20 16.8031V14M16 5L10 11V14H13L19 8M16 5L19 2L22 5L19 8M16 5L19 8" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+				</g>
+			</svg>
+			<a class="login-button" href="admin_markattendance.html">Mark Attendance</a>
+			<br /> <br />
+			<hr />
+			<p>Mark here attendance records</p>
+		</div>
+	</div>
+</body>
+</html>

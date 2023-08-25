@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Attendance</title>
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <link rel="stylesheet" href="navbar-style.css">
+    <style>
+        #admin{
+            left: 26%;
+        }
+
+        #student{
+            right: 26%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+		<nav id="navbar">
+			<div class="head">
+				<h2>Attendance-Marking System</h2>
+			</div>
+			<ul>
+				<li id="item"><a href="index.html">Home</a></li>
+				<li id="item"><a href="#">About</a></li>
+				<li id="item"><a href="#">Contact</a></li>
+				<li id="item"><a href="#">Location</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="login-box" id="admin" style="width: 15%;">
+			<a class="login-button" href="student_mark">Mark Attendance</a> <br />
+			<hr />
+			<p>Click here to mark yoursef present for the day</p>
+		</div>
+        <div class="login-box" id="student" style="width: 15%;">
+            <a class="login-button" href="show_attendance">Show Attendance</a> <br />
+			<hr />
+			<p>Click here to see your attendance list</p>
+        </div>
+    </div>
+</body>
+</html>

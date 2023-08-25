@@ -1,0 +1,64 @@
+	*{
+		text-decoration: none;
+	}
+
+	body{
+		background-image: url('https://wallpapercave.com/wp/tF62tvD.jpg');
+	}
+
+	.container{
+		display: flex;
+		justify-content: center;
+	}
+	.login-button {
+		margin-bottom: 3%;
+		display: inline-flex;
+		padding: .7rem;
+		border-radius: 10px;
+		background-color: rgb(82, 231, 82);
+		color: #fff;
+
+		transition: .5s;
+	}
+	
+	.login-button:hover{
+			background-color: rgb(103, 255, 103);
+		}
+	
+	.login-box{
+
+		width: 25%;
+		border: 1px solid rgb(173, 170, 170);
+		padding: 1rem;
+		margin-left: 2%;
+		margin-right: 2%;
+		border-radius: 5%;
+		text-align: center;
+		background-color: #fff;
+		opacity: 0.9;
+	}
+	
+	.login-box p{
+		padding-top: .4rem;
+		word-spacing: 3px;
+		letter-spacing: 1px;
+	}
+	
+	.login-box svg{
+			display: block;
+			margin: 0 auto;
+			padding: 2%;
+			margin-bottom: 3%;
+		}
+
+	#admin{
+		position: absolute;
+		top: 33%;
+		left: 15%;
+	}
+
+	#student{
+		position: absolute;
+		top: 33%;
+		right: 15%;
+	}
